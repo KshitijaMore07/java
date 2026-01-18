@@ -1,0 +1,21 @@
+package com.aaray;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int a[]=new int[5];
+		a[0]=12;
+		a[1]=34;
+		a[2]=45;
+		a[3]=90;
+		a[4]=98;
+		int sum=0;
+		for(int i=0;i<a.length;i++)
+		{
+			sum=sum+a[i];
+			System.out.println(a[i]);
+		}
+		System.out.println("sum of aaray numbers"+sum);
+				}
+
+}
