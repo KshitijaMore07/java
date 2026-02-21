@@ -1,0 +1,9 @@
+public class CastingExample {
+    public static void main(String[] args) {
+        float f = 9.8f;
+        int i = (int) f;
+
+        System.out.println("Float: " + f);
+        System.out.println("Integer: " + i);
+    }
+}
