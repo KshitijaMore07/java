@@ -1,0 +1,9 @@
+public class ExplicitCasting {
+    public static void main(String[] args) {
+        double d = 10.75;
+        int num = (int) d; // manual casting (double to int)
+
+        System.out.println("Double value: " + d);
+        System.out.println("Integer value: " + num);
+    }
+}
